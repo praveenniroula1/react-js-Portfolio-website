@@ -13,6 +13,9 @@ export const Hero = () => {
             Full-Stack-Developer with high level of experience in web designing
             and development.
           </span>
+          <span>
+            <button className="p-2 mt-3 bg-light">Hire Me</button>
+          </span>
         </div>
       </div>
 
