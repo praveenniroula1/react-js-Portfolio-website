@@ -3,16 +3,59 @@
   padding: 0;
   box-sizing: border-box;
 }
-.App {
-  background-color: black;
-  background: url(img/logo.jpg) no-repeat center center;
-  background-size: cover;
-  height: 100vh;
-}
+
 img {
   border-radius: 50px;
 }
-.toggle:hover {
-  background-color: rgba(32, 36, 50, 0.379);
+/* .toggle:hover {
+  background: rgba(12, 58, 224, 0.379);
+  color: rgb(240, 232, 232);
+} */
+.hero {
+  margin-top: 1rem;
+  height: 75vh;
+  background: rgb(231, 140, 140);
+  background-size: cover;
+  display: flex;
+}
+.text {
+  margin-right: -2rem;
   color: white;
+}
+.i-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+}
+.i-name {
+  display: flex;
+  flex-direction: column;
+}
+.i-name > :nth-child(1) {
+  color: black;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(2) {
+  color: rgb(236, 140, 22);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(3) {
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  margin-top: 1rem;
+  background: url(img/logo.jpg) no-repeat center center;
+  background-size: cover;
 }
