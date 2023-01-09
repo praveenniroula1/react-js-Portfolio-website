@@ -12,13 +12,13 @@ export const Hero = () => {
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Text className="i-name">
-            {/* Hy! I Am
+            Hy! I Am
             <span></span>
             <Card.Title>Praveen Niroula</Card.Title>
             <span>
               Full-Stack-Developer with high level of experience in web
               designing and development.
-            </span> */}
+            </span>
           </Card.Text>
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
