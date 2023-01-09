@@ -7,18 +7,83 @@
 img {
   border-radius: 50px;
 }
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  gap: 10rem;
+}
+.card2 {
+  font-size: 1rem;
+  box-shadow: 10px 10px 10px black;
+}
+.i-name > :nth-child(1) {
+  color: black;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(2) {
+  color: rgb(236, 140, 22);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(3) {
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+/* 
+.hero {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  padding: 2rem;
+  height: 80vh;
+}
+/* .i-left {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 1rem;
+} */
+/* .i-name {
+  display: flex;
+  flex-direction: column;
+}
+.i-name > :nth-child(1) {
+  color: black;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(2) {
+  color: rgb(236, 140, 22);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(3) {
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 1rem;
+} */
+
 /* .toggle:hover {
   background: rgba(12, 58, 224, 0.379);
   color: rgb(240, 232, 232);
 } */
-.hero {
+/* .hero {
   margin-top: 1rem;
   height: 75vh;
   background: rgb(231, 140, 140);
   background-size: cover;
   display: flex;
-}
-.text {
+} */
+/* .text {
   margin-right: -2rem;
   color: white;
 }
@@ -27,7 +92,9 @@ img {
   position: relative;
   flex: 1;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
+  border: 2px solid black;
+  padding: 3rem;
 }
 .i-name {
   display: flex;
@@ -59,6 +126,8 @@ img {
 .i-right {
   flex: 1;
   position: relative;
+  border: 2px solid red;
+  height: 46vh;
 }
 .i-right > * {
   position: absolute;
@@ -67,15 +136,40 @@ img {
 .i-right > :nth-child(1) {
   transform: scale(0.69);
   left: -15%;
-  top: -15rem;
+  top: -10rem;
 }
 .i-right > :nth-child(2) {
-  top: -18rem;
+  top: -13rem;
   transform: scale(0.55);
   left: -3rem;
 }
 .i-right > :nth-child(3) {
-  transform: scale(0.7);
+  transform: scale(0.8);
   left: 16%;
-  top: -20rem;
+  top: -17rem;
+} */
+/* .i-right {
+  flex: 1;
+  position: relative;
+  border: 2px solid red;
+  height: 46vh;
 }
+.i-right > * {
+  position: absolute;
+  z-index: 1;
+}
+.i-right > :nth-child(1) {
+  transform: scale(0.69);
+  left: -15%;
+  top: -10rem;
+}
+.i-right > :nth-child(2) {
+  top: -13rem;
+  transform: scale(0.55);
+  left: -3rem;
+}
+.i-right > :nth-child(3) {
+  transform: scale(0.8);
+  left: 16%;
+  top: -17rem;
+} */
