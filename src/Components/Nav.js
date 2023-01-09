@@ -8,7 +8,7 @@ import logo from "../img/logoo.png";
 
 const NavBar = () => {
   return (
-    <div className="navBar bg-dark container p-1">
+    <div className="navBar container p-1">
       {[false].map((expand) => (
         <Navbar key={expand} expand={expand} className="mb-3">
           <Container fluid>

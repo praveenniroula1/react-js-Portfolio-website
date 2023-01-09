@@ -53,9 +53,29 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 80vh;
+  margin-top: -4rem;
 }
-img {
-  margin-top: 1rem;
-  background: url(img/logo.jpg) no-repeat center center;
-  background-size: cover;
+.i-right {
+  flex: 1;
+  position: relative;
+}
+.i-right > * {
+  position: absolute;
+  z-index: 1;
+}
+.i-right > :nth-child(1) {
+  transform: scale(0.69);
+  left: -15%;
+  top: -15rem;
+}
+.i-right > :nth-child(2) {
+  top: -18rem;
+  transform: scale(0.55);
+  left: -3rem;
+}
+.i-right > :nth-child(3) {
+  transform: scale(0.7);
+  left: 16%;
+  top: -20rem;
 }
