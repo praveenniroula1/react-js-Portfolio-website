@@ -1,61 +1,24 @@
 import React from "react";
-import photo from "../img/banner.png";
-import vector1 from "../img/Vector1.png";
-import vector2 from "../img/Vector2.png";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
+import banner from "../img/banner.png";
+import Vector2 from "../img/Vector2.png";
 
-export const Hero = () => {
+const Hero = () => {
   return (
-    <div className="card1 container">
-      <Card className="card2" style={{ width: "25rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Text className="i-name">
-            Hy! I Am
-            <span></span>
-            <Card.Title>Praveen Niroula</Card.Title>
-            <span>
-              Full-Stack-Developer with high level of experience in web
-              designing and development.
-            </span>
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-      </Card>
-      <Card className="card2 order-md-2" style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-      </Card>
+    <div className="hero row d-flex justify-content-center align-items-center">
+      <div className="text  col-md d-flex justify-content-center align-items-center">
+        <span className="fs-2">Hi! I Am</span>
+        <h1 className="text-warning">Praveen Niroula</h1>
+        <h3 className="details">
+          I am software engineer based in sydney. My background is Business and
+          Tech.
+        </h3>
+      </div>
+      <div className="photo col-md-3 ">
+        <img class="imggg1 order-md-1" src={Vector2} alt=""></img>
+        <img class="imggg order-md-1" src={banner} alt=""></img>
+      </div>
     </div>
-
-    // <div className="intro d-flex  container ">
-    //   {/* left */}
-    //
-
-    //   {/* right */}
   );
 };
-// };<div className="i-left">
-//     <div className="i-name">
-//       <span>Hy! I Am</span>
-//       <span>Praveen Niroula</span>
-//       <span>
-//         Full-Stack-Developer with high level of experience in web designing
-//         and development.
-//       </span>
-//     </div>
-//   </div>
-//   <div className="i-right order-md-2">
-//     <img src={vector1} alt="" />
-//     <img src={vector2} alt="" />
-//     <img className="imgg" src={photo} alt="" />
-//   </div>
-// </div>
+
+export default Hero;
