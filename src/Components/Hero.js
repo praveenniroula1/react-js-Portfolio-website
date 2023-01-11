@@ -39,6 +39,11 @@ const Hero = () => {
             I am a Full-Stack Software developer with high level of experience
             in web development.
           </p>
+          <div className="abc me-auto bg-danger">
+            <div className="a"></div>
+            <div className="b"></div>
+            <div className="c"></div>
+          </div>
         </div>
         <div className="hero-img">
           <img className="img2" src={logo} width="100%" alt="" />

@@ -80,3 +80,19 @@
   height: 40vh;
   margin-top: -5rem;
 }
+.a {
+  border: 5px solid white;
+  background-color: rgb(230, 31, 31);
+}
+.b {
+  border: 5px solid white;
+  background-color: rgb(16, 12, 12);
+}
+.c {
+  border: 5px solid white;
+  background-color: rgb(239, 9, 9);
+}
+.abc {
+  margin: 1rem;
+  background-color: red;
+}
