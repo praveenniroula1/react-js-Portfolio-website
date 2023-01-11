@@ -2,12 +2,81 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
 .img {
-  height: 25vh;
+  margin-left: 2rem;
+  height: 20vh;
   margin-top: 5rem;
+  border-radius: 45%;
 }
 .App {
-  background: url(img/bg.png) no-repeat center center;
-  background-size: cover;
+  background: linear-gradient(to right, red 30%, black 30%);
+  height: 100vh;
+}
+.nav-left {
+  margin: 1rem;
+}
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -1rem;
+  margin-right: 25rem;
+  font-size: 1.3rem;
+  gap: 2rem;
+}
+.slogan {
+  font-size: 1.6rem;
+  color: white;
+  width: 25%;
+  /* margin-left: -15rem; */
+  text-align: center;
+}
+.slogan2 {
+  color: white;
+  text-align: center;
+  width: 30%;
+
+  margin-left: -15rem;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+}
+
+.img2 {
+  margin-left: -4rem;
+  height: 40vh;
+  margin-top: -15rem;
+}
+.name {
+  color: red;
+}
+.hero-img {
+  position: relative;
+  margin: -3rem;
+}
+/* .hero-img > * {
+  position: absolute;
+} */
+.hero-img > :nth-child(2) {
+  transform: scale(1);
+  margin-top: -15rem;
+  /* margin-left: -15rem; */
+}
+.hero-img > :nth-child(1) {
+  transform: scale(1);
+  border-radius: 50%;
+  /* margin-left: -18rem; */
+  height: 40vh;
+  margin-top: -15rem;
+}
+.img1 {
+  margin-left: -20rem;
+  height: 40vh;
+  margin-top: -5rem;
 }
