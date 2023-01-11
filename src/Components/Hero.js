@@ -1,22 +1,38 @@
 import React from "react";
-import banner from "../img/banner.png";
-import Vector2 from "../img/Vector2.png";
-
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import logoo from "../img/logoo.png";
 const Hero = () => {
   return (
-    <div className="hero row d-flex justify-content-center align-items-center">
-      <div className="text  col-md d-flex justify-content-center align-items-center">
-        <span className="fs-2">Hi! I Am</span>
-        <h1 className="text-warning">Praveen Niroula</h1>
-        <h3 className="details">
-          I am software engineer based in sydney. My background is Business and
-          Tech.
-        </h3>
-      </div>
-      <div className="photo col-md-3 ">
-        <img class="imggg1 order-md-1" src={Vector2} alt=""></img>
-        <img class="imggg order-md-1" src={banner} alt=""></img>
-      </div>
+    <div>
+      {/* nav */}
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <span className="g-3">
+            <i class="fa-solid fa-bars text-light fs-1"></i>{" "}
+            <img className="img" src={logoo} alt="" />{" "}
+          </span>
+          <Nav className="nav-text ">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <span className="g-3">
+            <i class="fa-solid fa-bars text-light fs-1"></i>{" "}
+            <img className="img" src={logoo} alt="" />{" "}
+          </span>
+          <Nav className="nav-text ">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
     </div>
   );
 };
