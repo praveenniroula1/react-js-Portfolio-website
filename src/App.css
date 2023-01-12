@@ -38,7 +38,8 @@
   text-align: center;
   width: 30%;
 
-  margin-left: -15rem;
+  margin-left: -5rem;
+  padding-bottom: 8rem;
 }
 .hero {
   display: flex;
@@ -80,19 +81,53 @@
   height: 40vh;
   margin-top: -5rem;
 }
+.a,
+.b,
+.c {
+  margin: 0.2rem;
+}
 .a {
-  border: 5px solid white;
-  background-color: rgb(230, 31, 31);
+  height: 1rem;
+  width: 2rem;
+  border: 2px solid wheat;
 }
 .b {
-  border: 5px solid white;
-  background-color: rgb(16, 12, 12);
+  height: 1rem;
+  width: 5rem;
+  border: 2px solid wheat;
 }
 .c {
-  border: 5px solid white;
-  background-color: rgb(239, 9, 9);
+  height: 1rem;
+  width: 10rem;
+  border: 2px solid wheat;
 }
-.abc {
-  margin: 1rem;
-  background-color: red;
+.white {
+  margin-left: -20rem;
+  margin-top: 15rem;
+  padding-bottom: 8rem;
 }
+.Navbar {
+  margin-top: -5rem;
+}
+.red {
+  margin-left: -13rem;
+  margin-top: 18rem;
+}
+
+/* yugasui */
+.bb {
+  height: 1rem;
+  width: 10rem;
+  background: rgb(5, 5, 5);
+}
+.cc {
+  height: 1rem;
+  width: 10rem;
+  border: 2px solid red;
+  background: red;
+}
+
+/* .bb,
+.cc {
+  margin: 0.2rem;
+} */

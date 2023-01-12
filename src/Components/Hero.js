@@ -12,15 +12,27 @@ const Hero = () => {
       <Navbar variant="dark">
         <Container>
           <span className="nav-left">
-            <i class="fa-solid fa-computer text-dark fs-1"></i>{" "}
+            <i class="fa-solid fa-computer text-dark fs-2 m-3">
+              {"  "} {"  "}W e l c o m e!!!
+            </i>{" "}
             <img className="img" src={logoo} alt="" />{" "}
           </span>
           <Nav className="nav-text ">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Skills</Nav.Link>
-            <Nav.Link href="#pricing">Projects</Nav.Link>
-            <Nav.Link href="#pricing">About</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
+            <Nav.Link className="text-light" href="#home ">
+              Home
+            </Nav.Link>
+            <Nav.Link className="text-light" href="#features">
+              Skills
+            </Nav.Link>
+            <Nav.Link className="text-light" href="#pricing">
+              Projects
+            </Nav.Link>
+            <Nav.Link className="text-light" href="#pricing">
+              About
+            </Nav.Link>
+            <Nav.Link className="text-light" href="#pricing">
+              Contact
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
@@ -32,6 +44,9 @@ const Hero = () => {
           </p>
           <p>I am on the journey to become the next!!!</p>
         </div>
+        <div className="red d-flex justify-content-center align-items-center ">
+          <span className="bb "></span> <span className="cc"></span>{" "}
+        </div>
         <div className="slogan2 fs-5">
           <p>Hi! I AM</p>
           <p className="name fs-1">Praveen Niroula</p>
@@ -39,11 +54,11 @@ const Hero = () => {
             I am a Full-Stack Software developer with high level of experience
             in web development.
           </p>
-          <div className="abc me-auto bg-danger">
-            <div className="a"></div>
-            <div className="b"></div>
-            <div className="c"></div>
-          </div>
+        </div>
+        <div className="white d-flex justify-content-center align-items-center ">
+          <span className="a bg-light"></span>{" "}
+          <span className="b bg-light"></span>{" "}
+          <span className="c bg-light"></span>{" "}
         </div>
         <div className="hero-img">
           <img className="img2" src={logo} width="100%" alt="" />
