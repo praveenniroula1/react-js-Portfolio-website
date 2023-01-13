@@ -40,11 +40,7 @@ const Hero = () => {
           <img className="img" src={logoo} alt="" />{" "}
           <p>
             As per Statistics, The best programmer in the world came from
-            different field and doing really well!!!
-          </p>
-          <p>
-            As per Statistics, The best programmer in the world came from
-            different field and doing really well!!!
+            different field and doing really well!!!!!!
           </p>
           <p>I am on the journey to become the next!!!</p>
         </div>
