@@ -7,12 +7,12 @@
 .img {
   margin-left: 2rem;
   height: 20vh;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   border-radius: 45%;
 }
 .App {
   background: linear-gradient(to right, red 30%, black 30%);
-  height: 100vh;
+  height: 150vh;
 }
 .nav-left {
   margin: 1rem;
@@ -110,8 +110,8 @@
   margin-top: -5rem;
 }
 .red {
-  margin-left: -13rem;
-  margin-top: 18rem;
+  margin-left: -35rem;
+  /* margin-top: 26rem; */
 }
 
 /* yugasui */
@@ -131,3 +131,13 @@
 .cc {
   margin: 0.2rem;
 } */
+.skillCard {
+  height: 50vh;
+
+  backdrop-filter: blur(1px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(242, 204, 204, 0.317);
+  border-radius: 12px;
+  border: 5px solid rgba(236, 217, 217, 0.3);
+  box-shadow: 10px 20px 20px rgb(227, 70, 70);
+}
