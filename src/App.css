@@ -1,143 +1,26 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Times New Roman", Times, serif;
-}
-.img {
-  margin-left: 2rem;
-  height: 20vh;
-  /* margin-top: 5rem; */
-  border-radius: 45%;
-}
-.App {
-  background: linear-gradient(to right, red 30%, black 30%);
-  height: 150vh;
-}
-.nav-left {
-  margin: 1rem;
-}
-.nav-text {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: -1rem;
-  margin-right: 25rem;
-  font-size: 1.3rem;
+/* .check {
+  width: 100%;
+} */
+.aaa {
   gap: 2rem;
+  margin-right: 2rem;
 }
-.slogan {
-  font-size: 1.6rem;
-  color: white;
-  width: 25%;
-  /* margin-left: -15rem; */
-  text-align: center;
-}
-.slogan2 {
-  color: white;
-  text-align: center;
-  width: 30%;
-
-  margin-left: -5rem;
-  padding-bottom: 8rem;
+.aaa:hover {
+  background-color: rgb(44, 31, 31);
+  border-radius: 2rem;
+  transform: scale(1.2);
 }
 .hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  border: 5px solid black;
+  height: 70vh;
+  margin-top: 1rem;
   width: 100%;
-  height: 50vh;
 }
-
-.img2 {
-  margin-left: -4rem;
-  height: 40vh;
-  margin-top: -15rem;
-}
-.name {
-  color: red;
-}
-.hero-img {
-  position: relative;
-  margin: -3rem;
-}
-/* .hero-img > * {
-  position: absolute;
-} */
-.hero-img > :nth-child(2) {
-  transform: scale(1);
-  margin-top: -15rem;
-  /* margin-left: -15rem; */
-}
-.hero-img > :nth-child(1) {
-  transform: scale(1);
-  border-radius: 50%;
-  /* margin-left: -18rem; */
-  height: 40vh;
-  margin-top: -15rem;
-}
-.img1 {
-  margin-left: -20rem;
-  height: 40vh;
-  margin-top: -5rem;
-}
-.a,
-.b,
-.c {
-  margin: 0.2rem;
-}
-.a {
-  height: 1rem;
-  width: 2rem;
-  border: 2px solid wheat;
-}
-.b {
-  height: 1rem;
-  width: 5rem;
-  border: 2px solid wheat;
-}
-.c {
-  height: 1rem;
-  width: 10rem;
-  border: 2px solid wheat;
-}
-.white {
-  margin-left: -20rem;
-  margin-top: 15rem;
-  padding-bottom: 8rem;
-}
-.Navbar {
-  margin-top: -5rem;
-}
-.red {
-  margin-left: -35rem;
-  /* margin-top: 26rem; */
-}
-
-/* yugasui */
-.bb {
-  height: 1rem;
-  width: 10rem;
-  background: rgb(5, 5, 5);
-}
-.cc {
-  height: 1rem;
-  width: 10rem;
-  border: 2px solid red;
-  background: red;
-}
-
-/* .bb,
-.cc {
-  margin: 0.2rem;
-} */
-.skillCard {
-  height: 50vh;
-
-  backdrop-filter: blur(1px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(242, 204, 204, 0.317);
-  border-radius: 12px;
-  border: 5px solid rgba(236, 217, 217, 0.3);
-  box-shadow: 10px 20px 20px rgb(227, 70, 70);
+.content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
 }

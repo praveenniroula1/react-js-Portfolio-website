@@ -1,12 +1,11 @@
 import "./App.css";
 import Hero from "./Components/Hero";
-import Skills from "./Components/Skills";
-
+import Header from "./Components/Nav";
 function App() {
   return (
     <div className="App">
+      <Header />
       <Hero />
-      <Skills />
     </div>
   );
 }
