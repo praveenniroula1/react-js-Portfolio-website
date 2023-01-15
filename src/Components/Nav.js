@@ -2,15 +2,15 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Header = () => {
   return (
-    <div>
+    <div className="container">
       {" "}
-      <Navbar className="fs-4" bg="dark" expand="lg">
+      <Navbar className="fs-4 bg-dark" expand="lg">
         <Container>
           <Navbar.Brand href="#home">
+            <i class="fa-solid fa-child text-warning fs-1"></i>{" "}
             <span className="fs-2  text-light">Praveen</span>{" "}
             <span className="text-warning fs-2">Niroula</span>
           </Navbar.Brand>
