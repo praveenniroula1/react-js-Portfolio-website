@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 
 const Hero = () => {
   return (
-    <div className="hero container text-light bg-dark">
+    <div className="hero container text-light bg-dark d-flex justify-content-between">
       <div className="content">
         <h4>
           {" "}
@@ -61,12 +61,12 @@ const Hero = () => {
         </h4>
       </div>
       {/* two buttons here */}
-      <div className="btn">
+      {/* <div className="btn">
         <Button variant="danger fs-4">
           Download Resume <i class="fa-solid fa-download"></i>
         </Button>{" "}
-      </div>
-      <div>
+      </div> */}
+      <div className="d-flex flex-column">
         <img
           src="https://media.giphy.com/media/7uDtQm2jKdS0VGLg46/giphy.gif"
           alt="gif"
