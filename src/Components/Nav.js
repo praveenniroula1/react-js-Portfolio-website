@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="container">
       {" "}
-      <Navbar className="fs-4 bg-dark" expand="lg">
+      <Navbar className="fs-4" expand="lg">
         <Container>
           <Navbar.Brand href="#home">
             <i class="fa-solid fa-child text-warning fs-1"></i>{" "}

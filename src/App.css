@@ -6,6 +6,10 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+.App {
+  background-color: black;
+  height: 120vh;
+}
 
 .aaa {
   margin-right: 2rem;
@@ -18,7 +22,6 @@ body {
   transform: scale(1.4);
 }
 .hero {
-  border: 5px solid black;
   height: 53vh;
   margin-top: 1rem;
   width: 100%;
@@ -36,5 +39,78 @@ body {
   height: 10vh;
   margin: 0.2rem;
 }
-.App {
+img {
+  transform: scale(0.5);
+  position: relative;
+  top: -10rem;
+  border-radius: 30%;
+  left: -7rem;
+}
+.a {
+  border: 5px solid black;
+  height: 50vh;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+.skills {
+  background-color: rgba(0, 0, 0, 0.47);
+  height: fit-content;
+  border: 5px solid white;
+  box-shadow: 10px 10px 10px white;
+}
+.line {
+  border: 5px solid rgb(247, 245, 245);
+  border-radius: 50%;
+}
+.logo {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul > li {
+  list-style-type: none;
+  /* padding: 2rem; */
+}
+ul {
+  width: 100%;
+}
+.htmll {
+  color: red;
+}
+.css {
+  color: blue;
+}
+.js {
+  color: yellow;
+}
+.react {
+  color: rgb(30, 141, 192);
+}
+.react {
+  color: rgb(30, 141, 192);
+}
+.node {
+  color: green;
+}
+.node {
+  color: green;
+}
+.bootstrap {
+  color: rgb(159, 31, 223);
+}
+.figma {
+  color: #e40474;
+}
+.vscode {
+  color: rgba(14, 84, 159, 0.835);
+}
+.npm {
+  color: rgb(234, 15, 15);
+}
+.git {
+  color: rgb(90, 80, 80);
 }
