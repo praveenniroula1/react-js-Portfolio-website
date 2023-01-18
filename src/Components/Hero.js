@@ -42,6 +42,7 @@ import TypeWriterEffect from "react-typewriter-effect";
 import Button from "react-bootstrap/Button";
 import photo from "../img/photo.png";
 import logo from "../img/logo.jpg";
+import Typewriter from "typewriter-effect";
 const Hero = () => {
   return (
     <div className="hero container text-light  d-flex justify-content-center">
@@ -82,22 +83,37 @@ const Hero = () => {
               hideCursorAfterText
             />
           </h1>
-          <h4 className="">
+          <h4>
             {" "}
             <TypeWriterEffect
               textStyle={{
                 // fontFamily: "Red Hat Display",
                 color: "white",
                 fontWeight: 500,
-                fontSize: "0.9em",
+                fontSize: "1em",
               }}
-              startDelay={3000}
+              startDelay={2000}
               cursorColor="#3F3D56"
-              multiText={["</> Mern-Stack-Developer </>"]}
+              multiText={["I'm a:"]}
               multiTextDelay={1000}
               typeSpeed={30}
               repeat={true}
               hideCursorAfterText
+            />
+          </h4>
+          <h4 className="">
+            {" "}
+            <Typewriter
+              options={{
+                strings: [
+                  "</> Mern-Stack-Developer </>",
+                  "</> React-JS-Developer </>",
+                  "</> Web-Designer </>",
+                ],
+                autoStart: true,
+                loop: true,
+                deleteSpeed: 50,
+              }}
             />
           </h4>
         </div>
