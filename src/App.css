@@ -125,14 +125,13 @@ ul {
 }
 i {
   margin: 1rem;
-  border: 1px solid black;
-  border-radius: 1rem;
+  border-radius: 10rem;
   padding: 1rem;
   cursor: pointer;
+  animation: float 3s ease-in-out infinite;
 }
 i:hover {
-  transform: scale(1.1);
-  background-color: #0f0f0f;
+  background-color: #010101;
 }
 @media (max-width: 480px) {
   i {
@@ -141,5 +140,26 @@ i:hover {
     padding: 0.6rem;
     cursor: pointer;
     font-size: 1rem;
+  }
+}
+/* .card {
+  background-color: #ffe5b4;
+} */
+.project {
+  height: 100vh;
+  margin-top: 4rem;
+}
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: rotate(180deg);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatex(30px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatex(0px);
   }
 }

@@ -10,8 +10,7 @@ const Skills = () => {
         <div className="line"></div>
       </h1>
       <div className="logo container ">
-        <Card style={{}}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+        <Card>
           <Card.Body>
             {/* <Card.Title>HTML5</Card.Title> */}
             <Card.Text className="fs-3 ">
