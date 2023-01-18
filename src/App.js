@@ -8,7 +8,6 @@ function App() {
       <Header />
       <Hero />
       <Skills />
-      <Skills />
     </div>
   );
 }
