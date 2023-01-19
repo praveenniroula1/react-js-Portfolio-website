@@ -87,9 +87,8 @@ const Hero = () => {
             <TypeWriterEffect
               textStyle={{
                 // fontFamily: "Red Hat Display",
-                color: "white",
                 fontWeight: 500,
-                fontSize: "2em",
+                fontSize: "1.2em",
               }}
               startDelay={2000}
               cursorColor="#3F3D56"
@@ -133,7 +132,7 @@ const Hero = () => {
         </div> */}
 
         <div className="col-md-5">
-          <img src={photo} alt="logo"></img>
+          <img className="img" src={photo} alt="logo"></img>
         </div>
       </div>
     </div>

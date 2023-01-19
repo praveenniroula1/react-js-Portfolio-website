@@ -1,7 +1,94 @@
 import React from "react";
+import { Button, Card } from "react-bootstrap";
+import calc from "../Components/projects-image/calc.jpg";
+import lovecalc from "../Components/projects-image/loveCalc.jpg";
+import todo from "../Components/projects-image/todo.jpg";
+import dkt from "../Components/projects-image/dkt.jpg";
 
 const Project = () => {
-  return <div className="project bg-success">Project</div>;
+  return (
+    <div className="project container">
+      <h1 className="text-light text-align-center ">
+        Projects I've made:
+        <div className="line"></div>
+      </h1>{" "}
+      <div className="cards row  ">
+        {" "}
+        <Card className="col-lg-4">
+          <Card.Img className="calc card " src={calc} />
+          <Card.Body>
+            <Card.Title className="fs-1">Calculator</Card.Title>
+            <Card.Text>
+              This app has been made with HTML, CSS and Raw JavaScript.
+            </Card.Text>
+            <Button variant="dark">
+              {" "}
+              <a href="https://lnkd.in/gQ8M-Ajk">L i v e</a>
+            </Button>
+            <Button variant="dark">
+              <a href="https://github.com/praveenniroula1/JS-Calculator">
+                GitHub Code
+              </a>
+            </Button>
+          </Card.Body>
+        </Card>
+        <Card className="col-lg-4">
+          <Card.Img className="calc card " src={lovecalc} />
+          <Card.Body>
+            <Card.Title className="fs-1">Calculator</Card.Title>
+            <Card.Text>
+              This app has been made with HTML, CSS and Raw JavaScript.
+            </Card.Text>
+            <Button variant="dark">
+              {" "}
+              <a href="https://lnkd.in/gZ7-xk2P">L i v e</a>
+            </Button>
+            <Button variant="dark">
+              <a href="https://github.com/praveenniroula1/practiceLoveCalculatorResponsive">
+                GitHub Code
+              </a>
+            </Button>
+          </Card.Body>
+        </Card>
+        <Card className="col-lg-4">
+          <Card.Img className="calc card " src={todo} />
+          <Card.Body>
+            <Card.Title className="fs-1">Calculator</Card.Title>
+            <Card.Text>
+              This app has been made with HTML, CSS and Raw JavaScript.
+            </Card.Text>
+            <Button variant="dark">
+              {" "}
+              <a href="https://lnkd.in/g-VZ8_3N">L i v e</a>
+            </Button>
+            <Button variant="dark">
+              <a href="https://github.com/praveenniroula1/js-not-to-do-list">
+                GitHub Code
+              </a>
+            </Button>
+          </Card.Body>
+        </Card>
+        <Card className="col-lg-4">
+          <Card.Img className="calc card " src={dkt} />
+          <Card.Body>
+            <Card.Title className="fs-1">Calculator</Card.Title>
+            <Card.Text>
+              This app has been made with HTML, CSS and Raw JavaScript.
+            </Card.Text>
+            <Button variant="dark">
+              {" "}
+              <a href="https://lnkd.in/gQHb8w3P">L i v e</a>
+            </Button>
+            <Button variant="dark">
+              <a href="https://github.com/praveenniroula1/DktPracticeSet">
+                GitHub Code
+              </a>
+            </Button>
+          </Card.Body>
+        </Card>
+      </div>
+    </div>
+  );
 };
 
 export default Project;
