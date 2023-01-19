@@ -49,17 +49,16 @@ const Hero = () => {
       <div className="row container">
         <div className="content col-md-6 col-lg-6 col-sm-12">
           <h4>
-            {" "}
             <TypeWriterEffect
               textStyle={{
                 // fontFamily: "Red Hat Display",
-                color: "white",
+                color: "",
                 fontWeight: 500,
                 fontSize: "1em",
               }}
               startDelay={1000}
               cursorColor="#3F3D56"
-              multiText={["Hi! I AM,"]}
+              multiText={["Hi! I Am,"]}
               multiTextDelay={1000}
               typeSpeed={30}
               hideCursorAfterText
@@ -83,14 +82,14 @@ const Hero = () => {
               hideCursorAfterText
             />
           </h1>
-          <h4>
+          <h5>
             {" "}
             <TypeWriterEffect
               textStyle={{
                 // fontFamily: "Red Hat Display",
                 color: "white",
                 fontWeight: 500,
-                fontSize: "1em",
+                fontSize: "2em",
               }}
               startDelay={2000}
               cursorColor="#3F3D56"
@@ -100,8 +99,8 @@ const Hero = () => {
               repeat={true}
               hideCursorAfterText
             />
-          </h4>
-          <h4 className="">
+          </h5>
+          <h4 className="effect">
             {" "}
             <Typewriter
               options={{

@@ -10,7 +10,7 @@ const Header = () => {
       <Navbar className="fs-4" expand="lg">
         <Container>
           <Navbar.Brand href="#home">
-            <i class="fa-solid fa-child text-warning fs-1"></i>{" "}
+            <a class="fa-solid fa-child text-warning fs-1"></a>{" "}
             <span className="fs-2  text-light">Praveen</span>{" "}
             <span className="text-warning fs-2">Niroula</span>
           </Navbar.Brand>
