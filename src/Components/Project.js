@@ -35,7 +35,7 @@ const Project = () => {
         <Card className="col-lg-4">
           <Card.Img className="calc card " src={lovecalc} />
           <Card.Body>
-            <Card.Title className="fs-1">Calculator</Card.Title>
+            <Card.Title className="fs-1">Love-Calculator</Card.Title>
             <Card.Text>
               This app has been made with HTML, CSS and Raw JavaScript.
             </Card.Text>
@@ -53,7 +53,7 @@ const Project = () => {
         <Card className="col-lg-4">
           <Card.Img className="calc card " src={todo} />
           <Card.Body>
-            <Card.Title className="fs-1">Calculator</Card.Title>
+            <Card.Title className="fs-1">Activity-Tracker-App</Card.Title>
             <Card.Text>
               This app has been made with HTML, CSS and Raw JavaScript.
             </Card.Text>
@@ -71,7 +71,7 @@ const Project = () => {
         <Card className="col-lg-4">
           <Card.Img className="calc card " src={dkt} />
           <Card.Body>
-            <Card.Title className="fs-1">Calculator</Card.Title>
+            <Card.Title className="fs-1">DKT-Practice-Test</Card.Title>
             <Card.Text>
               This app has been made with HTML, CSS and Raw JavaScript.
             </Card.Text>
