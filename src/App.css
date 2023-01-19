@@ -128,7 +128,7 @@ i {
   border-radius: 10rem;
   padding: 1rem;
   cursor: pointer;
-  animation: float 5s ease-in-out infinite;
+  animation: float 5s ease-in-out 1;
 }
 i:hover {
   background-color: #010101;
