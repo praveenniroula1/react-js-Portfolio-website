@@ -10,7 +10,7 @@ const Skills = () => {
         <div className="line"></div>
       </h1>
       <div className="logo container ">
-        <Card>
+        <Card className="card">
           <Card.Body>
             {/* <Card.Title>HTML5</Card.Title> */}
             <Card.Text className="fs-3 ">

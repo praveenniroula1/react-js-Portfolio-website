@@ -56,17 +56,17 @@ h1 {
 }
 .skills {
   border-radius: 2rem;
-  background-color: #0f0f0f;
+  /* background-color: #0f0f0f; */
   height: fit-content;
-  border: 1px solid white;
-  box-shadow: 10px 10px 10px rgb(57, 56, 53);
+  /* border: 1px solid white; */
+  /* box-shadow: 10px 10px 10px rgb(57, 56, 53); */
   /* padding: 2rem; */
   backdrop-filter: blur(25rem);
 }
-.line {
+/* .line {
   border: 5px solid rgb(247, 245, 245);
   border-radius: 50%;
-}
+} */
 .logo {
   margin-bottom: 1rem;
 
@@ -147,6 +147,8 @@ i:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* border: 5px solid blue; */
+  padding: 1rem;
 }
 @media (max-width: 480px) {
   .cards {
@@ -159,12 +161,12 @@ i:hover {
 .project {
   height: 100vh;
   margin-top: 4rem;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   border-radius: 2rem;
-  background-color: #0f0f0f;
+  /* background-color: #0f0f0f; */
   height: fit-content;
-  border: 1px solid white;
-  box-shadow: 10px 10px 10px rgb(57, 56, 53);
+  /* border: 1px solid white; */
+  /* box-shadow: 10px 10px 10px rgb(57, 56, 53); */
   /* padding: 2rem; */
   backdrop-filter: blur(25rem);
 }
@@ -215,4 +217,31 @@ i:hover {
 a {
   text-decoration: none;
   color: wheat;
+}
+.text {
+  /* border: 1px solid black; */
+  margin: 1rem;
+  width: 100%;
+  border-radius: 1rem; /* max-width: 300px;
+  min-height: 200px; */
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: space-between; */
+
+  /* max-width: 500px; */
+  /* height: 300px; */
+  /* padding: 35px; */
+}
+.card2 {
+  /* border: 5px solid rgb(255, 89, 0); */
+  height: 100vh;
+  /* padding: 2rem; */
+  background: rgb(9, 2, 2);
+  /* color: white; */
+  /* border: 1px solid rgba(255, 255, 255, 0.25); */
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
 }

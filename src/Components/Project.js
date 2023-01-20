@@ -14,9 +14,9 @@ const Project = () => {
       </h1>{" "}
       <div className="cards row  ">
         {" "}
-        <Card className="col-lg-4">
+        <Card className="card2 col-lg-4">
           <Card.Img className="calc card " src={calc} />
-          <Card.Body>
+          <Card.Body className="text">
             <Card.Title className="fs-1">Calculator</Card.Title>
             <Card.Text>
               This app has been made with HTML, CSS and Raw JavaScript.
@@ -32,9 +32,9 @@ const Project = () => {
             </Button>
           </Card.Body>
         </Card>
-        <Card className="col-lg-4">
+        <Card className="card2 col-lg-4">
           <Card.Img className="calc card " src={lovecalc} />
-          <Card.Body>
+          <Card.Body className="text">
             <Card.Title className="fs-1">Love-Calculator</Card.Title>
             <Card.Text>
               This app has been made with HTML, CSS and Raw JavaScript.
@@ -50,9 +50,9 @@ const Project = () => {
             </Button>
           </Card.Body>
         </Card>
-        <Card className="col-lg-4">
-          <Card.Img className="calc card " src={todo} />
-          <Card.Body>
+        <Card className="card2 col-lg-4">
+          <Card.Img className="calc card mt-3" src={todo} />
+          <Card.Body className="text">
             <Card.Title className="fs-1">Activity-Tracker-App</Card.Title>
             <Card.Text>
               This app has been made with HTML, CSS and Raw JavaScript.
@@ -68,9 +68,9 @@ const Project = () => {
             </Button>
           </Card.Body>
         </Card>
-        <Card className="col-lg-4">
-          <Card.Img className="calc card " src={dkt} />
-          <Card.Body>
+        <Card className="card2 col-lg-4 mt-1">
+          <Card.Img className="calc card mt-3" src={dkt} />
+          <Card.Body className="text">
             <Card.Title className="fs-1">DKT-Practice-Test</Card.Title>
             <Card.Text>
               This app has been made with HTML, CSS and Raw JavaScript.
