@@ -141,24 +141,6 @@ const Project = () => {
             </Button>
           </Card.Body>
         </Card>
-        <Card className="card2 col-lg-4 mt-1">
-          <Card.Img className="calc card mt-3" src={banner} />
-          <Card.Body className="text">
-            <Card.Title className="fs-1">DKT-Practice-Test</Card.Title>
-            <Card.Text>
-              This app has been made with HTML, CSS and Raw JavaScript.
-            </Card.Text>
-            <Button variant="dark">
-              {" "}
-              <a href="https://lnkd.in/gQHb8w3P">L i v e</a>
-            </Button>
-            <Button variant="dark">
-              <a href="https://github.com/praveenniroula1/DktPracticeSet">
-                GitHub Code
-              </a>
-            </Button>
-          </Card.Body>
-        </Card>
       </div>
     </div>
   );
