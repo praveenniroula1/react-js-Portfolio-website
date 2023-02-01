@@ -1,4 +1,6 @@
 import "./App.css";
+import Contacts from "./Components/Contacts";
+import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
 import Header from "./Components/Nav";
 import Project from "./Components/Project";
@@ -10,6 +12,8 @@ function App() {
       <Hero />
       <Skills />
       <Project />
+      <Contacts />
+      <Footer />
     </div>
   );
 }
