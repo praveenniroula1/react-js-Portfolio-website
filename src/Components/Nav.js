@@ -9,12 +9,12 @@ const Header = () => {
       {" "}
       <Navbar className="navbar fs-4" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">
-            <Link to="/" className="fixing">
+          <Navbar.Brand to="#home">
+            <a to="/" className="fixing">
               <a class="fa-solid fa-child text-warning fs-1"></a>{" "}
               <span className="fs-2 text-light">Praveen</span>{" "}
               <span className="text-warning fs-2">Niroula</span>
-            </Link>
+            </a>
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav bg-dark "
@@ -24,20 +24,20 @@ const Header = () => {
             <div className="check">
               {" "}
               <Nav className="ms-auto align-text-center mt-4">
-                <Link className="aaa text-light " to="/">
+                <a className="aaa text-light " to="/">
                   Home
-                </Link>
-                <Link className="aaa text-light" to="/Skills">
+                </a>
+                <a className="aaa text-light" href="/Skills">
                   Skills
-                </Link>
+                </a>
 
-                <Link className="aaa text-light" to="/Project">
+                <a className="aaa text-light" to="/Project.js">
                   Projects
-                </Link>
+                </a>
 
-                <Link className="aaa text-light" to="/Contacts">
+                <a className="aaa text-light" to="/Contacts.js">
                   Contact
-                </Link>
+                </a>
               </Nav>
             </div>
           </Navbar.Collapse>

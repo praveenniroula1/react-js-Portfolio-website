@@ -5,25 +5,17 @@ import Hero from "./Components/Hero";
 import Header from "./Components/Nav";
 import Project from "./Components/Project";
 import Skills from "./Components/Skills";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Switch, Redirect, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="/Skills" element={<Skills />} />
-          <Route path="/Project" element={<Project />} />
-          <Route path="/Contacts" element={<Contacts />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
-      {/* 
+      <Header />
+      <Hero />
       <Skills />
       <Project />
-      <Contacts /> */}
+      <Contacts />
+      <Footer />
     </div>
   );
 }

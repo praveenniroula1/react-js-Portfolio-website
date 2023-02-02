@@ -68,11 +68,45 @@ body {
   margin: 0.2rem;
 }
 .img {
-  transform: scale(0.5);
+  height: 100vh;
+  width: 100%;
+  /* transform: scale(0.); */
   position: relative;
-  top: -10rem;
+  top: -7rem;
   border-radius: 30%;
   left: -7rem;
+  animation: moving 5s infinite ease-in;
+}
+@media (max-width: 480px) {
+  .img {
+    height: 30vh;
+    width: 80%;
+    /* transform: scale(0.); */
+    position: relative;
+    top: -01rem;
+    border-radius: 30%;
+    left: 1.8rem;
+    margin-top: 2rem;
+  }
+}
+
+@keyframes moving {
+  0% {
+    rotate: 10deg;
+  }
+  25% {
+    rotate: 5deg;
+  }
+  50% {
+    transform: scale(1.2);
+    rotate: 10deg;
+  }
+  100% {
+    rotate: 10deg;
+  }
+  /* 100% {
+    top: 0px;
+  } */
 }
 .a {
   border: 5px solid black;

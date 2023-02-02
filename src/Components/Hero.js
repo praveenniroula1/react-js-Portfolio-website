@@ -40,7 +40,7 @@
 import React from "react";
 import TypeWriterEffect from "react-typewriter-effect";
 import Button from "react-bootstrap/Button";
-import photo from "../img/photo.png";
+import svg from "../img/svg.svg";
 import logo from "../img/logo.jpg";
 import Typewriter from "typewriter-effect";
 const Hero = () => {
@@ -132,7 +132,7 @@ const Hero = () => {
         </div> */}
 
         <div className="col-md-5">
-          <img className="img" src={photo} alt="logo"></img>
+          <img className="img" src={svg} alt="logo"></img>
         </div>
       </div>
     </div>
