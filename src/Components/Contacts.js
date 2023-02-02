@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 
 const Contacts = () => {
   return (
-    <div className=" container ">
+    <div className="contacts container ">
       <h1 className="text-light text-align-center mt-3">
         You can contact me via:
       </h1>

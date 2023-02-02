@@ -5,10 +5,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* height: 100vh; */
 }
 .App {
   background-color: black;
-  /* height: 100vh; */
 }
 
 .aaa {
@@ -355,4 +355,7 @@ a {
 }
 .arrow {
   cursor: pointer;
+}
+.contacts {
+  height: 100vh;
 }
