@@ -10,9 +10,11 @@ const Header = () => {
       <Navbar className="fs-4" expand="lg">
         <Container>
           <Navbar.Brand href="#home">
-            <a class="fa-solid fa-child text-warning fs-1"></a>{" "}
-            <span className="fs-2  text-light">Praveen</span>{" "}
-            <span className="text-warning fs-2">Niroula</span>
+            <div className="fixing">
+              <a class="fa-solid fa-child text-warning fs-1"></a>{" "}
+              <span className="fs-2  text-light">Praveen</span>{" "}
+              <span className="text-warning fs-2">Niroula</span>
+            </div>
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav bg-dark "
@@ -21,7 +23,7 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav ">
             <div className="check">
               {" "}
-              <Nav className="ms-auto align-text-center ">
+              <Nav className="ms-auto align-text-center mt-4">
                 <Link className="aaa text-light " to="/">
                   Home
                 </Link>
