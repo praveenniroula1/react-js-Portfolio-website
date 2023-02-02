@@ -16,6 +16,9 @@ body {
   margin-right: 4rem;
   text-align: center;
 }
+.navbar {
+  position: sticky;
+}
 
 .aaa:hover {
   /* background-color: rgb(217, 24, 24); */

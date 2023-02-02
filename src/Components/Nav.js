@@ -7,14 +7,14 @@ const Header = () => {
   return (
     <div className="container">
       {" "}
-      <Navbar className="fs-4" expand="lg">
+      <Navbar className="navbar fs-4" expand="lg">
         <Container>
           <Navbar.Brand href="#home">
-            <div className="fixing">
+            <Link to="/" className="fixing">
               <a class="fa-solid fa-child text-warning fs-1"></a>{" "}
-              <span className="fs-2  text-light">Praveen</span>{" "}
+              <span className="fs-2 text-light">Praveen</span>{" "}
               <span className="text-warning fs-2">Niroula</span>
-            </div>
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav bg-dark "
