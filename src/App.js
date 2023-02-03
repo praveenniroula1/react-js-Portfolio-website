@@ -5,17 +5,21 @@ import Hero from "./Components/Hero";
 import Header from "./Components/Nav";
 import Project from "./Components/Project";
 import Skills from "./Components/Skills";
-import { Switch, Redirect, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <Skills />
-      <Project />
-      <Contacts />
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <Hero />
+        <Routes>
+          <Route path="/Skills" element={<Skills />}></Route>
+          <Route path="/Project" element={<Project />}></Route>
+          <Route path="/Contacts" element={<Contacts />}></Route>
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

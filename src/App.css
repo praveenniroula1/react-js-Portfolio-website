@@ -12,8 +12,9 @@ body {
 }
 
 .aaa {
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-top: -1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   text-align: center;
 }
 .navbar {
@@ -22,21 +23,21 @@ body {
 
 .aaa:hover {
   /* background-color: rgb(217, 24, 24); */
-  border-radius: 2rem;
-  transform: scale(1.4);
+  transform: scale(1.2);
+  background-color: rgb(61, 48, 48);
 }
 @media (max-width: 480px) {
   .fixing {
     position: relative;
-    left: 8em;
+    left: 1rem;
     top: 1.5rem;
   }
 }
 @media (max-width: 480px) {
   .aaa {
     position: relative;
-    left: -2em;
-    top: -2.5rem;
+    left: -1rem;
+    top: 1rem;
     margin-top: 1rem;
   }
 }
@@ -51,8 +52,9 @@ body {
 } */
 .hero {
   height: fit-content;
-  margin-top: 1rem;
+  /* margin-top: 4rem; */
   width: 100%;
+  padding: 2rem;
 }
 .content {
   display: flex;
@@ -72,21 +74,23 @@ body {
   width: 100%;
   /* transform: scale(0.); */
   position: relative;
-  top: -7rem;
+  top: -10rem;
   border-radius: 30%;
-  left: -7rem;
-  animation: moving 5s infinite ease-in;
+  margin-top: 4rem;
+  left: 8rem;
+  animation: moving 10s infinite ease-in;
 }
 @media (max-width: 480px) {
   .img {
     height: 30vh;
     width: 80%;
-    /* transform: scale(0.); */
+    transform: scale(1.2);
     position: relative;
     top: -01rem;
     border-radius: 30%;
     left: 1.8rem;
     margin-top: 2rem;
+    animation: moving 4s infinite ease-in;
   }
 }
 
@@ -98,7 +102,7 @@ body {
     rotate: 5deg;
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(1);
     rotate: 10deg;
   }
   100% {
@@ -370,13 +374,7 @@ a {
 }
 @media (max-width: 480px) {
   .contactlist {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 0;
-    padding: 0;
-    margin: 0;
+    height: 30vh;
   }
 }
 .footer {

@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 const Header = () => {
   return (
     <div className="container">
@@ -10,11 +10,11 @@ const Header = () => {
       <Navbar className="navbar fs-4" expand="lg">
         <Container>
           <Navbar.Brand to="#home">
-            <a to="/" className="fixing">
+            <Link to="/" className="fixing">
               <a class="fa-solid fa-child text-warning fs-1"></a>{" "}
               <span className="fs-2 text-light">Praveen</span>{" "}
               <span className="text-warning fs-2">Niroula</span>
-            </a>
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav bg-dark "
@@ -24,20 +24,18 @@ const Header = () => {
             <div className="check">
               {" "}
               <Nav className="ms-auto align-text-center mt-4">
-                <a className="aaa text-light " to="/">
+                <Link className="aaa text-light container" to="/">
                   Home
-                </a>
-                <a className="aaa text-light" href="/Skills">
+                </Link>
+                <Link className="aaa text-light container" to="/Skills">
                   Skills
-                </a>
-
-                <a className="aaa text-light" to="/Project.js">
+                </Link>
+                <Link className="aaa text-light container" to="/Project">
                   Projects
-                </a>
-
-                <a className="aaa text-light" to="/Contacts.js">
+                </Link>
+                <Link className="aaa text-light container" to="/Contacts">
                   Contact
-                </a>
+                </Link>
               </Nav>
             </div>
           </Navbar.Collapse>
