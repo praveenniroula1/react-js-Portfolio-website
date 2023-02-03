@@ -1,15 +1,17 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import svg from "../img/skil.svg";
 
 const Skills = () => {
   return (
-    <div className="skills container mt-5">
+    <div className="skills container ">
       <h1 className="text-light text-align-center ">
         Technologies I'm Familiar with:
         <div className="line"></div>
       </h1>
       <div className="logo container ">
+        <img className="imgg " src={svg} alt="logo"></img>
         <Card className="card">
           <Card.Body>
             {/* <Card.Title>HTML5</Card.Title> */}
