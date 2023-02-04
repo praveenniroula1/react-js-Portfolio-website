@@ -458,3 +458,69 @@ a {
     rotate: 10deg;
   }
 } */
+.card2 {
+  width: 50%;
+  background: rgba(16, 16, 16, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  height: 78vh;
+}
+@media (max-width: 480px) {
+  .card2 {
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.qqq {
+  box-shadow: 0.5rem 0.8rem 0.2rem 0.1rem rgba(255, 255, 255, 0.122);
+  border: 1px solid white;
+  padding: 1rem;
+}
+@media (max-width: 480px) {
+  .card-text {
+    /* background-color: red; */
+    display: grid;
+    width: 100%;
+    gap: 0.1rem;
+    grid-template-areas:
+      "item1  item2"
+      "item3  item4"
+      "item3  item4"
+      "item5  item6"
+      "item7  item8"
+      "item9  item10";
+  }
+}
+.item1 {
+  grid-area: item1;
+}
+.item2 {
+  grid-area: item2;
+}
+.item3 {
+  grid-area: item3;
+}
+.item4 {
+  grid-area: item4;
+}
+.item5 {
+  grid-area: item5;
+}
+.item6 {
+  grid-area: item6;
+}
+.item7 {
+  grid-area: item7;
+}
+.item8 {
+  grid-area: item8;
+}
+.item9 {
+  grid-area: item9;
+}
+.item10 {
+  grid-area: item10;
+}
