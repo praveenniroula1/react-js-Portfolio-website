@@ -41,6 +41,7 @@ import React from "react";
 import TypeWriterEffect from "react-typewriter-effect";
 import Button from "react-bootstrap/Button";
 import svg from "../img/svg.svg";
+import svg from "../img/svg.svg";
 import logo from "../img/logo.jpg";
 import Typewriter from "typewriter-effect";
 const Hero = () => {
