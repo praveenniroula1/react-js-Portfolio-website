@@ -1,46 +1,6 @@
-// import React from "react";
-// import photo from "../img/photo.png";
-
-// const Hero = () => {
-//   return (
-//     <div className="hero">
-//       <div className="container mt-5">
-//         <div className="row bg-opacity-50">
-//           <div className="write col-md-7 text-center ">
-//             Hi👋,
-//             <div className="fs-2 fw-bolder">Praveen Niroula</div>
-//             <p>
-//               I am software engineer based in sydney. My background is Business
-//               and Technology. I'm currently enrolled in Applied Blockchain
-//               Technology as well. <br /> Basically, I am trying to combine the
-//               business world with the technology by acquiring the skills.{" "}
-//             </p>
-//             <button type="button" className="btn btn-outline-danger">
-//               Download Resume{" "}
-//               <i className="fa-solid fa-download text-dark bg-warning"></i>
-//             </button>
-//           </div>
-//           <div className="col-md-5 text-center">
-//             <img
-//               className="img"
-//               src={photo}
-//               width="100%"
-//               height="300vh"
-//               alt=""
-//             />
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Hero;
-
 import React from "react";
 import TypeWriterEffect from "react-typewriter-effect";
 import Button from "react-bootstrap/Button";
-import svg from "../img/svg.svg";
 import svg from "../img/svg.svg";
 import logo from "../img/logo.jpg";
 import Typewriter from "typewriter-effect";

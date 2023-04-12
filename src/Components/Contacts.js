@@ -33,9 +33,6 @@ const Contacts = () => {
           <a href="https://github.com/praveenniroula1" target="_blank">
             <i class="bbb github fa-brands fa-github text-dark"></i>
           </a>
-          <a href="https://github.com/praveenniroula1" target="_blank">
-            <i class="bbb github fa-brands fa-github text-dark"></i>
-          </a>
         </ul>
       </Card>
     </div>
